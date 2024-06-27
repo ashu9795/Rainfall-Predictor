@@ -14,3 +14,18 @@ Rainfall prediction application
 * pip install -r requirements.txt
 * Now for the final step. Run the app
 * python app.py
+
+# Data Collection: 
+[Rainfall Prediction in Australia dataset](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package) from Kaggle
+# Data Preprocessing: 
+* Missing Values Handled by Random Sample imputation to maintain the variance
+* Categorical Values like location, wind direction are handled by using Target guided encoding
+* Outliers are handled using IQR and boxplot
+* Feature Selection and was done but didnt perform well it can be seen in testing_notebook/Prediction.ipynb
+* Feature Scaling didnt give a lot of difference it also can be seen in testing_notebook/RainPrediction1.ipynb
+* Imbalanced Dataset was handled using SMOTE
+# Data Report :
+* The project report is in the form of EDA Report in Project Report folder
+# Model Creation:
+* we uses  catboost because it's acuuracy is high and it is compatible for categorical feature.
+* The conclusion were made using classification metrics. 
