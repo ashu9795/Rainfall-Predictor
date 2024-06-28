@@ -192,8 +192,9 @@ header .navigation a:hover {
 }
 
 .content .info p {
-    font-size: 1rem;
+    font-size: 1.9rem;
     font-weight: 500;
+    color: wheat;
     margin-bottom: 40px;
 }
 
