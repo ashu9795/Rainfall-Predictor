@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainy Chainy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href={{url_for('static',filename='style.css')}}>    
+</head>
+<body>
+  <section>
+    <input type="checkbox" id="check">
+    <header>
+      <div>
+        <h2><a href="#" class="logo">Rainy Chainy</a></h2>
+      <label for="check">
+        <i class="fas fa-bars menu"></i>
+        <i class="fas fa-times close"></i>
+      </label>
+      <div class="navigation">
+        <a href="#">Home</a>
+        <a href="#about">Working</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#info">About</a>
+        <a href="/predict">Predictor</a>
+      </div>
+    </header>
+    <div class="content" style="margin-top: 8%;">
+        <div class="info">
+          <h2>Behave Like Rain <br><span>Fall For Me</span></h2>
+          <p>"Rain and plants have a symbiotic relationship crucial for ecological balance. Rain provides the essential water that plants need for photosynthesis, nutrient absorption, and growth. Water from rain penetrates the soil, allowing plant roots to absorb moisture and essential nutrients dissolved in it. This process supports the plant's metabolic activities, enabling them to produce oxygen and organic compounds that sustain other life forms. In return, plants contribute to the water cycle through transpiration, releasing water vapor into the atmosphere, which eventually condenses and falls as rain, thus continuing the cycle. This interdependence is vital for maintaining healthy ecosystems and supporting biodiversity."</p>
+          <a href="#about" class="info-btn">More info</a>
+        </div>
+        <div class="media-icons">
+          <a href="https://www.linkedin.com/in/ashutosh-gupta-820a09215/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/ashu9795"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/_ashu9795/"><i class="fab fa-instagram"></i></a>
+          
+        </div>
+      </div>
+  </section>
+  <section id="about">
+    <h2>About Rainy Chainy</h2>
+    <p class="about-content" style="text-align: center;">
+        Rainy Chainy is a cool web app that uses a fancy Machine Learning model in the background. The whole point of creating this app is to help you figure out if it's gonna rain tomorrow or not. We built this model based on a dataset about predicting rain in Australia - pretty neat, huh? If you're curious, you can actually check out the codes for this project in my github repo, just click ,<a href="https://github.com/ashu9795/Rainfall-Predictor" style="color: black; font-weight: bold;">github repo</a>.
+
+        Now, did you know that over 80% of Australia gets less than 600 mm of rain per year? That's actually less than any other continent, except Antarctica, which hardly gets any rain at all. Imagine living inland near Lake Eyre - you'd only get 81 mm of rain in a whole year! And in the Australian desert, the average annual rainfall is super low, ranging from 81 to 250 mm.
+        
+        But wait, there's more! Thunderstorms are pretty common in that region, with an average of 15 to 20 of them happening every year. Down in the southern parts of Australia, they get these cool westerly winds and rain-bearing cold fronts during winter. It can get pretty chilly inland, even frosty, but near the coast it's usually mild all year round. Summers in the south are hot and dry, with refreshing sea breezes along the coast. But watch out during dry spells, 'cause those hot winds from the interior can start bushfires in places like Victoria and New South Wales.
+        
+        Now, let's head up north to the tropical areas of Australia. They have this thing called the monsoon, which makes their summers pretty wet. From around October to April, those humid north-westerly winds bring showers and thunderstorms. And every now and then, tropical cyclones can swoop in and bring heavy rainfall to the coastal regions, and sometimes even further inland.
+        
+        So there you have it - Rainy Chainy's got you covered whether you're in the dry desert or the tropical rainforest. Try it out and never get caught without your umbrella again!
+    </p>
+  </section>
+  <section id="dashboard">
+    <h2>Dashboard</h2>
+    <p>This dashboard is done using a Ms. powerpoint which is a product of Microsoft. Here I have just attached the images of the dashboard to see some information about dataset.</p>
+    <img class="dashboard-image" src ="../template/Slide1.JPG" alt ="1">
+    <div>
+      <img src="../template/Cloud.png" alt="Graph">
+      <img src="../template/australia-map-1400px.jpg" alt="Map">
+      <img src="../template/Date Day.png" alt="Graph">
+      <img src="../template/Date-Month.png" alt="Graph">
+      <img src="../template/Location.png" alt="Graph">
+      <img src="../template/Rain-Day.png" alt="Graph">
+      <img src="../template/Screenshot 2024-06-27 221045.png" alt="Graph">
+      <img src="../template/Sunshine.png" alt="Graph">
+      <img src="../template/Windspeed.png" alt="Graph">
+    </div>
+  </section>  
+  <section id="info">
+    <div>
+      <h2>About</h2>
+      <p class="about-content">Hi, I am Ashutosh Gupta, a Data Scientist Aspirant from India. Currently,  I am a Student of B.tech in Artificial Intelligence And Data Science From Galgotia College Of Engineering And Technology , I'm learning ML, DL,  NLP. I have an experience as a Several Science Project. Now currently I am trying to do some self-paced projects in data science like Rainy Chainy,Boston House pricing, etc.. I also have experience of taking webinars in my college. I am also trying to do some projects for my college too. Always curious to learn something new in the field of Data Science. Besides programming, I enjoy playing games and watching YouTube and I have also interest in Geopolitics. Below I have given my social media links. Happy to have new connections.
+      </p>
+    </div>
+  </section>
+  <footer>
+    <p>Developed by Ashutosh</p> 
+    <div class="media-icons">
+      <a href="https://www.linkedin.com/in/ashutosh-gupta-820a09215/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/ashu9795"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/_ashu9795/"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:ashutoshg067@gmail.com">Email <i class="fab fa-Email"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
