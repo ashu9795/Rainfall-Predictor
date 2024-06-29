@@ -1,21 +1,29 @@
 body {
-     
+    background: linear-gradient(#0004, #0004), url('predictor backgorund.jpg') no-repeat center  center fixed; 
     background-color: #0fd3dd;
     font-family: 'Poppins', sans-serif;
 }
 .form {
     background-color: white;
-    width: 70vw;
-    margin: 50px auto;
+    width: 86vw;
+    margin: 5px auto;
     padding: 20px 50px;
     box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
-    border-radius: 12px;
+    border-radius: 40px;
 }
 .form h1 {
-    color: #0fd3dd;
+    color: #a780f9;
 }
 
 .button {
+    font-size: 1.9rem; 
+    border-radius: 40px;
     padding: 5px 30px;
-    font-size: 18px;
+    display: flex;
+    justify-content: center;
+   
 }
+.button:hover {
+    background-color: black; /* Hover color */
+    color: white; /* Text color on hover */
+  }

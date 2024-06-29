@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href={{url_for('static',filename='predictor.css')}}>
+    
     <title>Rain Prediction</title>
 </head>
 <body>
@@ -18,110 +19,111 @@
             <div class="row">
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="date" class="date">Date</label>
+                        <label for="date" class="date" style="font-size: 1.9rem;">Date</label>
+
                         <input type="date" class="form-control" id="date" name="date">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="mintemp" class="mintemp"> Minimum temprature</label>
+                        <label for="mintemp" class="mintemp" style="font-size: 1.9rem;"> Minimum temprature</label>
                         <input type="text" class="form-control" id="mintemp" name="mintemp">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="maxtemp" class="maxtemp">Maximum Temperature</label>
+                        <label for="maxtemp" class="maxtemp"style="font-size: 1.9rem;">Maximum Temperature</label>
                         <input type="text" class="form-control" id="maxtemp" name="maxtemp">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="rainfall" class="rainfall">Rainfall</label>
+                        <label for="rainfall" class="rainfall"style="font-size: 1.9rem;">Rainfall</label>
                         <input type="text" class="form-control" id="rainfall" name="rainfall">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="evaporation" class="evaporation">Evaporation</label>
+                        <label for="evaporation" class="evaporation"style="font-size: 1.9rem;">Evaporation</label>
                         <input type="text" class="form-control" id="evaporation" name="evaporation">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="sunshine" class="sunshine">Sunshine</label>
+                        <label for="sunshine" class="sunshine"style="font-size: 1.9rem;">Sunshine</label>
                         <input type="text" class="form-control" id="sunshine" name="sunshine">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="windgustspeed" class="windgustspeed">Wind Gust Speed</label>
+                        <label for="windgustspeed" class="windgustspeed"style="font-size: 1.9rem;">Wind Gust Speed</label>
                         <input type="text" class="form-control" id="windgustspeed" name="windgustspeed">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="windspeed9am" class="windspeed9am">Wind Speed 9am</label>
+                        <label for="windspeed9am" class="windspeed9am"style="font-size: 1.9rem;">Wind Speed 9am</label>
                         <input type="text" class="form-control" id="windspeed9am" name="windspeed9am">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="windspeed3pm" class="windspeed3pm">Wind Speed 3pm</label>
+                        <label for="windspeed3pm" class="windspeed3pm"style="font-size: 1.9rem;">Wind Speed 3pm</label>
                         <input type="text" class="form-control" id="windspeed3pm" name="windspeed3pm">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="humidity9am" class="humidity9am">Humidity 9am</label>
+                        <label for="humidity9am" class="humidity9am"style="font-size: 1.9rem;">Humidity 9am</label>
                         <input type="text" class="form-control" id="humidity9am" name="humidity9am">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="humidity3pm" class="humidity3pm">Humidity 3pm</label>
+                        <label for="humidity3pm" class="humidity3pm"style="font-size: 1.9rem;">Humidity 3pm</label>
                         <input type="text" class="form-control" id="humidity3pm" name="humidity3pm">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="pressure9am" class="pressure9am">Pressure 9am</label>
+                        <label for="pressure9am" class="pressure9am"style="font-size: 1.9rem;">Pressure 9am</label>
                         <input type="text" class="form-control" id="pressure9am" name="pressure9am">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="pressure3pm" class="pressure3pm">Pressure 3pm</label>
+                        <label for="pressure3pm" class="pressure3pm"style="font-size: 1.9rem;">Pressure 3pm</label>
                         <input type="text" class="form-control" id="pressure3pm" name="pressure3pm">
                     </div>
                 </div>
                 
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="temp9am" class="temp9am">Temperature 9am</label>
+                        <label for="temp9am" class="temp9am"style="font-size: 1.9rem;">Temperature 9am</label>
                         <input type="text" class="form-control" id="temp9am" name="temp9am">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="temp3pm" class=temp3pm">Temperature 3pm</label>
+                        <label for="temp3pm" class="temp3pm"style="font-size: 1.9rem;" >Temperature 3pm</label>
                         <input type="text" class="form-control" id="temp3pm" name="temp3pm">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="cloud9am" class="cloud9am">Cloud 9am</label>
+                        <label for="cloud9am" class="cloud9am" style="font-size: 1.9rem;">Cloud 9am</label>
                         <input type="text" class="form-control" id="cloud9am" name="cloud9am">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="cloud3pm" class="cloud3pm">Cloud 3pm</label>
+                        <label for="cloud3pm" class="cloud3pm" style="font-size: 1.9rem;">Cloud 3pm</label>
                         <input type="text" class="form-control" id="cloud3pm" name="cloud3pm">
                     </div>
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="location" class="location" name="location">Location</label>
+                        <label for="location" class="location" name="location" style="font-size: 1.9rem;">Location</label>
                         <select class="location" id="location" name="location" aria-label="Location">
                             <option selected>Select Location</option>
                             <option value= 24>Adelaide</option>
@@ -177,7 +179,7 @@
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="winddir9am" class="winddir9am" name = "winddir9am">Wind Direction at 9am</label>
+                        <label for="winddir9am" class="winddir9am" name = "winddir9am" style="font-size: 1.9rem;">Wind Direction at 9am</label>
                         <select class="winddir9am" id="winddir9am" name="winddir9am" aria-label="Wind Direction 9am">
                             <option selected>Select Wind Direction at 9am</option>
                             <option value= 1>N</option>
@@ -201,7 +203,7 @@
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="winddir3pm" class="winddir3pm" name = "winddir3pm">Wind Direction at 3pm</label>
+                        <label for="winddir3pm" class="winddir3pm" name = "winddir3pm" style="font-size: 1.9rem;">Wind Direction at 3pm</label>
                         <select class="winddir3pm" id="winddir3pm" name = "winddir3pm" aria-label="Wind Direction at 3pm">
                             <option selected>Select Wind Direction at 3pm</option>
                             <option value= 2>N</option>
@@ -225,7 +227,7 @@
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="windgustdir" class="windgustdir" name = "windgustdir">Wind Gust Direction</label>
+                        <label for="windgustdir" class="windgustdir" name = "windgustdir" style="font-size: 1.9rem;">Wind Gust Direction</label>
                         <select class="windgustdir" id="windgustdir" name = "windgustdir" aria-label="Wind Gust Direction">
                             <option selected>Select Wind Gust Direction</option>
                             <option value= 3>N</option>
@@ -249,7 +251,7 @@
                 </div>
                 <div class="col-md-6 my-2">
                     <div class="md-form">
-                        <label for="raintoday" class="raintoday" name="raintoday">Rain Today</label>
+                        <label for="raintoday" class="raintoday" name="raintoday" style="font-size: 1.9rem;">Rain Today</label>
                         <select class="raintoday" id="raintoday" name="raintoday" aria-label="Rain Today">
                             <option selected>Did it Rain Today</option>
                             <option value= 1>Yes</option>
@@ -258,7 +260,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 my-2 d-flex align-items-end justify-content-around">
-                    <button type="submit" class="btn btn-info button" style="margin-left: 100%;">Predict</button>
+                    <button type="submit" class="btn btn-info button" style="margin-left: 100%; ">Predict</button>
                 </div>
             </div>
         </form>
